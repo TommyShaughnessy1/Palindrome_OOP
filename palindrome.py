@@ -6,13 +6,13 @@ def palindrome_check():
     #reverses the users input and gets the character at index[0]
     reverse_user_input = user_input[::-1][0]
 
-    # if user_input at index [0] = reverse_user_input [0]
+    # if user_input at index [0] = reverse_user_input[0]
     if user_input[0] == reverse_user_input:
         print(True)
     else:
         print(False)
 
-        
+
 palindrome_check()
 
 
